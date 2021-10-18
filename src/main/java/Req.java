@@ -18,10 +18,11 @@ public class Req {
         String param;
         String[] array = content.split("/");
         String pooh = array[1];
+        String ln = System.lineSeparator();
         if (array[0].startsWith("POST")) {
             type = "POST";
             source = array[2].substring(0, array[2].indexOf(" "));
-            String[] p = content.split("\r\n");
+            String[] p = content.split(ln);
             param = p[p.length - 1];
         } else if (array[0].startsWith("GET")) {
             type = "GET";
