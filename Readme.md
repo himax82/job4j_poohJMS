@@ -1,1 +1,2 @@
 [![Build Status](https://app.travis-ci.com/himax82/job4j_poohJMS.svg?branch=master)](https://app.travis-ci.com/himax82/job4j_poohJMS)
+[![codecov](https://codecov.io/gh/himax82/job4j_poohJMS/branch/master/graph/badge.svg?token=JN7LN4LN5S)](https://codecov.io/gh/himax82/job4j_poohJMS)
