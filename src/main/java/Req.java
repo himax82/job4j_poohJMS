@@ -23,7 +23,7 @@ public class Req {
             source = array[2].substring(0, array[2].indexOf(" "));
             String[] p = content.split("\r\n");
             param = p[p.length - 1];
-        } else if (array[0].startsWith("GET")){
+        } else if (array[0].startsWith("GET")) {
             type = "GET";
             if (pooh.equals("queue")) {
                 source = array[2].substring(0, array[2].indexOf(" "));

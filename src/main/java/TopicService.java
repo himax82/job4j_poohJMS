@@ -10,7 +10,7 @@ public class TopicService implements Service {
             = new ConcurrentHashMap<>();
     @Override
     public Resp process(Req req) {
-        if (POST.equals(req.httpRequestType())){
+        if (POST.equals(req.httpRequestType())) {
             if (queue.get(req.getSourceName()) == null) {
                 return new Resp("Error topic don't exist", "204 Error");
             }
